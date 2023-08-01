@@ -34,7 +34,7 @@ protected:
 	const int circle = 16;
 	short n;
 	short k;
-	const short m = 26;
+	const short m = 36;
 	const int duration = 360;
 	UINT timer;
 	dir d;

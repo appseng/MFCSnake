@@ -95,8 +95,10 @@ void CMFCSnakeDlg::update()
 void CMFCSnakeDlg::step()
 {
 	if (extend) {
-		n = k;
-		extend = false;
+		if (n < k)
+			n++;
+		else if (n = k)
+			extend = false;
 	}
 
 	for (int i = n - 1; i > 0; i--)
